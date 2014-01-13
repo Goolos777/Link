@@ -37,6 +37,6 @@ public:
 	bool findLink();
 
 	bool operator==(Link &l)const;
-	int& operator[](unsigned int index)const;
+	Link& operator[](unsigned int index)const;
 	friend std::ostream &operator<<(std::ostream&, Link&);
 };
