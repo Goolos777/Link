@@ -6,13 +6,15 @@ using namespace std;
 
 class Link
 {
-	int length;
+	int number;
 	Link *link;
 public:
 	Link();
 	~Link();
 	
-	unsigned int GetLength(){ return length; };// возвращает длину массива
+
+	unsigned int GetNumber(){ return number; };// возвращает длину массива
+	bool findLink(const Link&);//поиск элемента
 
 	void Push(int value);//добавление элемента в конец
 	void Shift(int value);//(добавление элемента в начало 

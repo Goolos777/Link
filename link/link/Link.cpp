@@ -3,9 +3,14 @@
 
 Link::Link()
 {
+
 }
 
-unsigned int Link::GetLength(){ return length; };// возвращает длину массива
+
+bool findLink(const Link&)//поиск элемента
+{
+
+}
 
 void Link::Push(int value)//добавление элемента в конец
 {
