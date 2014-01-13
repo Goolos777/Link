@@ -30,7 +30,7 @@ bool MasterLink::Remove(int index)//удаление элемента из массива по указанному и
 {
 
 }
-bool Link::Remove(Link &)//удаление элемента из массива 
+bool MasterLink::Remove(Link &)//удаление элемента из массива 
 {
 
 }
@@ -66,14 +66,7 @@ void MasterLink::SetElem(int, Link*)
 {
 
 }
-void MasterLink::Sort()//организовать not work 
-{
 
-}
-bool findLink(const Link& orig)//поиск элемента
-{
-
-}
 
 Link& MasterLink::operator[](unsigned int index)const
 {

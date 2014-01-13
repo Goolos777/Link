@@ -33,10 +33,6 @@ public:
 	const Link* GetElem(int index)const;
 	void SetElem(int, Link*);
 
-	void Sort();//организовать not work 
-	bool findLink();
-
-	
 	Link& operator[](unsigned int index)const;
 	friend std::ostream &operator<<(std::ostream&, MasterLink&);
 
